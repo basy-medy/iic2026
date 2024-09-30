@@ -5,19 +5,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pochita</title>
-    <link rel="icon" type="image/x-icon" href="p.ico">
+    <title>Grimes</title>
+    <link rel="icon" type="image/x-icon" href="grimes.ico">
     <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <svg id="pochita"></svg>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> <!-- Plotly.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.25/Tone.min.js"></script> <!-- tone.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script> <!-- D3.js -->
     
-    <button id="dark-mode">Toggle Dark Mode</button>
+</head>
+<body>
+    <h1>Veces que Grimes a tocado sus canciones en conciertos</h1>
+    <div id="myDiv"></div> <!-- Container for the Plotly chart -->
+    <button class="image-button"></button>
+    <script src = "script.js"></script>
+    
 
-    <button id="+">+</button> <!-- BOTON PARA AGRANDAR-->
-    <button id="-">-</button> <!-- BOTON PARA ACHICAR-->
-
-    <script src="pochita.js"></script>
 </body>
 </html>

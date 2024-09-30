@@ -1,114 +1,15 @@
 
 /* Bastián Medina Gómez*/
-
-/* Light mode por defecto*/
-
-#pochita {
-    border: 5px solid red;
-    background-color: cyan;
+#myDiv {
+    width: 600px;
+    height: 400px;
 }
 
-.pelaje-pochita{
-    fill: orange;
+.image-button {
+    width: 100px;
+    height: 100px;
+    background-image: url('pics/genesis.png');
+    background-size: cover;
+    border: none;
+    cursor: pointer;
 }
-
-.cuerpo{
-    fill: orange;
-}
-
-.mejilla{
-    fill: orange;
-}
-
-.boca{
-    fill: red;
-    stroke: black;
-    stroke-width: 5px;
-}
-
-.manija{
-    fill: black
-}
-
-.sierra{
-    fill: #808080;
-    stroke: #6e6e6e;
-    stroke-width: 5px;
-}
-
-.borde_sierra{
-    fill:#6e6e6e;
-}
-.fill_sierra{
-    fill: #808080;
-}
-
-
-.dientes{
-    fill: white;
-    stroke: black;
-    stroke-width: 5px;
-}
-
-
-.ojos-pochita{
-    fill: white;
-    stroke: black;
-    stroke-width: 5px;
-}
-
-.pupila-pochita{
-    fill: black;
-}
-
-/* AGREGAR MAS ESTILOS*/
-
-/* Dark mode */
-.dark-mode #pochita {
-    border: 5px solid cyan;
-    background-color: red;
-}
-
-
-.dark-mode .pelaje-pochita {
-    fill: blue;
-}
-
-.dark-mode .mejilla {
-    fill: blue;
-}
-
-.dark-mode .cuerpo {
-    fill: blue;
-}
-
-.dark-mode .ojos-pochita {
-    fill: black;
-    stroke: white;
-}
-
-.dark-mode .manija {
-    fill: white;
-}
-
-.dark-mode .boca {
-    fill: lightblue;
-    stroke: white;
-}
-
-.dark-mode .mejilla_borde {
-    fill: white;
-    
-}
-
-.dark-mode .dientes{
-    fill: black;
-    stroke: white;
-    
-}
-
-.dark-mode .pupila-pochita {
-    fill: white;
-}
-
-/* AGREGAR MAS ESTILOS*/
