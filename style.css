@@ -6,10 +6,12 @@
 }
 
 .image-button {
-    width: 100px;
-    height: 100px;
-    background-image: url('pics/genesis.png');
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+    border: 2px solid black; /* Change the color and thickness as needed */
+    border-radius: 5px; /* Optional: for rounded corners */
+    padding: 5px; /* Optional: add some space around the image */
+    background-color: transparent; /* Optional: make the button background transparent */
+    cursor: pointer; /* Change the cursor to a pointer when hovering */
+}
+.image-button img {
+    display: block; /* Prevents extra space below the image */
 }
