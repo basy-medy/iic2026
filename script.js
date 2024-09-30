@@ -39,7 +39,7 @@ const titles = [
 
 // Construct songs and images arrays dynamically
 const songs = titles.map(title => `songs/${title}.m4a`);
-const images = titles.map(title => `pics/${title}.png`);
+const images = titles.map(title => `pics/${title}.webp`);
 
 const buttonContainer = document.getElementById('button-container');
 const pauseButton = document.getElementById('pause-button');
